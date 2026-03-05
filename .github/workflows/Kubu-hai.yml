@@ -3,7 +3,7 @@ name: 'kubu-hai'
 on:
   push:
     branches:
-      - '"main"'
+      - "main"
 
 env:
   PROJECT_ID: 'kubu-hai' # TODO: update to your Google Cloud project ID
@@ -27,7 +27,7 @@ jobs:
 
     steps:
       - name: 'Checkout'
-        uses: 'actions/checkout@8edcb1bdb4e267140fa742c62e395cd74f332709' # actions/checkout@v4
+        uses: 'actions/checkout@8edcb1bdb4e267140fa742c62e395cd74f332709' # actions/checkout@v5
 
       # Configure Workload Identity Federation and generate an access token.
       #
@@ -41,7 +41,7 @@ jobs:
 
       # Authenticate Docker to Google Cloud Artifact Registry
       - name: 'Docker Auth'
-        uses: 'docker/login-action@3d100841f68d4548bf57e52eb27bd33ec5069f55' # docker/login-action@v3
+        uses: 'docker/login-action@184bdaa0721073962dff0199f1fb9940f07167d1' # docker/login-action@v5
         with:
           username: 'oauth2accesstoken'
           password: '${{ steps.auth.outputs.auth_token }}'
@@ -51,7 +51,7 @@ jobs:
       - name: 'Set up GKE credentials'
         uses: 'google-github-actions/get-gke-credentials@8e574c49425fa7efed1e74650a449bfa6a23308a' # google-github-actions/get-gke-credentials@v2
         with:
-          cluster_name: '${{ env.kubu-hai }}'
+          cluster_name: '${{ env.web4-application }}'
           location: '${{ env.GKE_ZONE }}'
 
       # Build the Docker image

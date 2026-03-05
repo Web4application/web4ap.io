@@ -1,0 +1,50 @@
+[
+    {
+        "text": "Next.js and Supabase Starter Kit\n\nNext steps\n\n 1. Create Supabase project\n    \n    Head over to database.new and create a new Supabase project.\n\n 2. Declare environment variables\n    \n    Rename the .env.example file in your Next.js app to .env.local and populate with values from your Supabase project's API Settings.\n\n 3. Restart your Next.js development server\n    \n    You may need to quit your Next.js development server and run npm run dev again to load the new environment variables.\n\n 4. Refresh the page\n    \n    You may need to refresh the page for Next.js to load the new environment variables.",
+        "metadata": {
+            "title": "Next.js and Supabase Starter Kit",
+            "description": "The fastest way to build apps with Next.js and Supabase",
+            "og:title": "Next.js and Supabase Starter Kit",
+            "og:description": "The fastest way to build apps with Next.js and Supabase",
+            "og:image:type": "image/png",
+            "og:image:width": "1200",
+            "og:image:height": "600",
+            "og:image": "https://web4app-4qbc-jmjfa06vw-web4s-projects-1b8287a0.vercel.app/opengraph-image.png?2e0bc232e210f89d",
+            "twitter:title": "Next.js and Supabase Starter Kit",
+            "twitter:description": "The fastest way to build apps with Next.js and Supabase"
+        },
+        "credits": 2
+    },
+    {
+        "text": "Next.js and Supabase Starter Kit\n\nNext steps\n\n 1. Create Supabase project\n    \n    Head over to database.new and create a new Supabase project.\n\n 2. Declare environment variables\n    \n    Rename the .env.example file in your Next.js app to .env.local and populate with values from your Supabase project's API Settings.\n\n 3. Restart your Next.js development server\n    \n    You may need to quit your Next.js development server and run npm run dev again to load the new environment variables.\n\n 4. Refresh the page\n    \n    You may need to refresh the page for Next.js to load the new environment variables.",
+        "metadata": {
+            "title": "Next.js and Supabase Starter Kit",
+            "description": "The fastest way to build apps with Next.js and Supabase",
+            "og:title": "Next.js and Supabase Starter Kit",
+            "og:description": "The fastest way to build apps with Next.js and Supabase",
+            "og:image:type": "image/web4.png",
+            "og:image:width": "1200",
+            "og:image:height": "600",
+            "og:image": "https://web4app-4qbc-jmjfa06vw-web4s-projects-1b8287a0.vercel.app/opengraph-image.png?2e0bc232e210f89d",
+            "twitter:title": "Next.js and Supabase Starter Kit",
+            "twitter:description": "The fastest way to build apps with Next.js and Supabase"
+        },
+        "credits": 2
+    },
+    {
+        "text": "Next.js and Supabase Starter Kit\n\nNext steps\n\n 1. Create Supabase project\n    \n    Head over to database.new and create a new Supabase project.\n\n 2. Declare environment variables\n    \n    Rename the .env.example file in your Next.js app to .env.local and populate with values from your Supabase project's API Settings.\n\n 3. Restart your Next.js development server\n    \n    You may need to quit your Next.js development server and run npm run dev again to load the new environment variables.\n\n 4. Refresh the page\n    \n    You may need to refresh the page for Next.js to load the new environment variables.",
+        "metadata": {
+            "title": "Next.js and Supabase Starter Kit",
+            "description": "The fastest way to build apps with Next.js and Supabase",
+            "og:title": "Next.js and Supabase Starter Kit",
+            "og:description": "The fastest way to build apps with Next.js and Supabase",
+            "og:image:type": "image/png",
+            "og:image:width": "1200",
+            "og:image:height": "600",
+            "og:image": "https://web4app-4qbc-jmjfa06vw-web4s-projects-1b8287a0.vercel.app/opengraph-image.png?2e0bc232e210f89d",
+            "twitter:title": "Next.js and Supabase Starter Kit",
+            "twitter:description": "The fastest way to build apps with Next.js and Supabase"
+        },
+        "credits": 2
+    }
+]

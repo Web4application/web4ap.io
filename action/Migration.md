@@ -1,5 +1,4 @@
 # Migration
-
 - [Migration](#migration)
   - [Multiple uploads to the same named Artifact](#multiple-uploads-to-the-same-named-artifact)
   - [Overwriting an Artifact](#overwriting-an-artifact)

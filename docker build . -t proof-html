@@ -1,0 +1,4 @@
+docker run --rm \
+    -e INPUT_DIRECTORY=build \
+    -v "${PWD}/build:/build" \
+    proof-html:latest

@@ -1,0 +1,176 @@
+2026-03-05T01:37:34.8705380Z ##[debug]Starting: Dependabot
+2026-03-05T01:37:34.8730895Z ##[debug]Cleaning runner temp folder: /home/runner/work/_temp
+2026-03-05T01:37:34.8849162Z ##[debug]Starting: Set up job
+2026-03-05T01:37:34.8850696Z Current runner version: '2.331.0'
+2026-03-05T01:37:34.8884068Z ##[group]Runner Image Provisioner
+2026-03-05T01:37:34.8885174Z Hosted Compute Agent
+2026-03-05T01:37:34.8885920Z Version: 20260213.493
+2026-03-05T01:37:34.8886980Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+2026-03-05T01:37:34.8887995Z Build Date: 2026-02-13T00:28:41Z
+2026-03-05T01:37:34.8888985Z Worker ID: {ca14372f-1c38-42a0-9f9f-27c81a906a7e}
+2026-03-05T01:37:34.8889975Z Azure Region: eastus2
+2026-03-05T01:37:34.8890903Z ##[endgroup]
+2026-03-05T01:37:34.8892850Z ##[group]Operating System
+2026-03-05T01:37:34.8894155Z Ubuntu
+2026-03-05T01:37:34.8894841Z 24.04.3
+2026-03-05T01:37:34.8895554Z LTS
+2026-03-05T01:37:34.8896333Z ##[endgroup]
+2026-03-05T01:37:34.8897061Z ##[group]Runner Image
+2026-03-05T01:37:34.8897901Z Image: ubuntu-24.04
+2026-03-05T01:37:34.8899043Z Version: 20260302.42.1
+2026-03-05T01:37:34.8900734Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260302.42/images/ubuntu/Ubuntu2404-Readme.md
+2026-03-05T01:37:34.8902960Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260302.42
+2026-03-05T01:37:34.8904664Z ##[endgroup]
+2026-03-05T01:37:34.8906340Z ##[group]GITHUB_TOKEN Permissions
+2026-03-05T01:37:34.8909270Z Contents: read
+2026-03-05T01:37:34.8910106Z Metadata: read
+2026-03-05T01:37:34.8910819Z Packages: read
+2026-03-05T01:37:34.8911717Z ##[endgroup]
+2026-03-05T01:37:34.8914773Z Secret source: None
+2026-03-05T01:37:34.8916235Z ##[debug]Primary repository: Web4application/web4ap.io
+2026-03-05T01:37:34.8917514Z Prepare workflow directory
+2026-03-05T01:37:34.9007970Z ##[debug]Creating pipeline directory: '/home/runner/work/web4ap.io'
+2026-03-05T01:37:34.9013452Z ##[debug]Creating workspace directory: '/home/runner/work/web4ap.io/web4ap.io'
+2026-03-05T01:37:34.9016065Z ##[debug]Update context data
+2026-03-05T01:37:34.9021361Z ##[debug]Evaluating job-level environment variables
+2026-03-05T01:37:34.9333023Z ##[debug]Evaluating job container
+2026-03-05T01:37:34.9338221Z ##[debug]Evaluating job service containers
+2026-03-05T01:37:34.9341902Z ##[debug]Evaluating job defaults
+2026-03-05T01:37:34.9379128Z Prepare all required actions
+2026-03-05T01:37:34.9432460Z Getting action download info
+2026-03-05T01:37:35.1937306Z Download action repository 'github/dependabot-action@main' (SHA:13ab68f1ddedb4ffc70e6b0738a7cb8bff762e9d)
+2026-03-05T01:37:35.4354133Z ##[debug]Download 'https://api.github.com/repos/github/dependabot-action/tarball/13ab68f1ddedb4ffc70e6b0738a7cb8bff762e9d' to '/home/runner/work/_actions/_temp_fb287b29-76c3-477a-8d47-c3c2bfb35d3f/d311158b-81bd-4359-99d1-7af81bb0a9a2.tar.gz'
+2026-03-05T01:37:35.6030532Z ##[debug]Unwrap 'github-dependabot-action-13ab68f' to '/home/runner/work/_actions/github/dependabot-action/main'
+2026-03-05T01:37:35.6304870Z ##[debug]Archive '/home/runner/work/_actions/_temp_fb287b29-76c3-477a-8d47-c3c2bfb35d3f/d311158b-81bd-4359-99d1-7af81bb0a9a2.tar.gz' has been unzipped into '/home/runner/work/_actions/github/dependabot-action/main'.
+2026-03-05T01:37:35.6427440Z ##[debug]action.yml for action: '/home/runner/work/_actions/github/dependabot-action/main/action.yml'.
+2026-03-05T01:37:35.6958714Z ##[debug]Set step '__run' display name to: 'Create job directory'
+2026-03-05T01:37:35.6962495Z ##[debug]Set step '__github_dependabot-action' display name to: 'Run Dependabot'
+2026-03-05T01:37:35.6963741Z Complete job name: Dependabot
+2026-03-05T01:37:35.6979611Z ##[debug]Collect running processes for tracking orphan processes.
+2026-03-05T01:37:35.7221396Z ##[debug]Finishing: Set up job
+2026-03-05T01:37:35.7451949Z ##[debug]Evaluating condition for step: 'Create job directory'
+2026-03-05T01:37:35.7539431Z ##[debug]Evaluating: success()
+2026-03-05T01:37:35.7544318Z ##[debug]Evaluating success:
+2026-03-05T01:37:35.7562690Z ##[debug]=> true
+2026-03-05T01:37:35.7570076Z ##[debug]Result: true
+2026-03-05T01:37:35.7593012Z ##[debug]Starting: Create job directory
+2026-03-05T01:37:35.7687286Z ##[debug]Loading inputs
+2026-03-05T01:37:35.7702675Z ##[debug]Loading env
+2026-03-05T01:37:35.7763046Z ##[group]Run mkdir -p  ./dependabot-job-1266795192-1772546502
+2026-03-05T01:37:35.7764062Z [36;1mmkdir -p  ./dependabot-job-1266795192-1772546502[0m
+2026-03-05T01:37:35.7820900Z shell: /usr/bin/bash -e {0}
+2026-03-05T01:37:35.7821604Z ##[endgroup]
+2026-03-05T01:37:35.7909052Z ##[debug]/usr/bin/bash -e /home/runner/work/_temp/b32fc1cd-0f79-4caa-a0e1-cbf25725a848.sh
+2026-03-05T01:37:35.8017722Z ##[debug]Finishing: Create job directory
+2026-03-05T01:37:35.8047732Z ##[debug]Evaluating: secrets.GITHUB_TOKEN
+2026-03-05T01:37:35.8049032Z ##[debug]Evaluating Index:
+2026-03-05T01:37:35.8051323Z ##[debug]..Evaluating secrets:
+2026-03-05T01:37:35.8052421Z ##[debug]..=> Object
+2026-03-05T01:37:35.8058268Z ##[debug]..Evaluating String:
+2026-03-05T01:37:35.8059072Z ##[debug]..=> 'GITHUB_TOKEN'
+2026-03-05T01:37:35.8063772Z ##[debug]=> '***'
+2026-03-05T01:37:35.8065460Z ##[debug]Result: '***'
+2026-03-05T01:37:35.8066822Z ##[debug]Evaluating: secrets.GITHUB_DEPENDABOT_JOB_TOKEN
+2026-03-05T01:37:35.8067449Z ##[debug]Evaluating Index:
+2026-03-05T01:37:35.8067907Z ##[debug]..Evaluating secrets:
+2026-03-05T01:37:35.8068382Z ##[debug]..=> Object
+2026-03-05T01:37:35.8068806Z ##[debug]..Evaluating String:
+2026-03-05T01:37:35.8069296Z ##[debug]..=> 'GITHUB_DEPENDABOT_JOB_TOKEN'
+2026-03-05T01:37:35.8069859Z ##[debug]=> null
+2026-03-05T01:37:35.8070236Z ##[debug]Result: null
+2026-03-05T01:37:35.8073034Z ##[debug]Evaluating: secrets.GITHUB_DEPENDABOT_CRED_TOKEN
+2026-03-05T01:37:35.8074065Z ##[debug]Evaluating Index:
+2026-03-05T01:37:35.8074528Z ##[debug]..Evaluating secrets:
+2026-03-05T01:37:35.8075004Z ##[debug]..=> Object
+2026-03-05T01:37:35.8075423Z ##[debug]..Evaluating String:
+2026-03-05T01:37:35.8075909Z ##[debug]..=> 'GITHUB_DEPENDABOT_CRED_TOKEN'
+2026-03-05T01:37:35.8076440Z ##[debug]=> null
+2026-03-05T01:37:35.8076832Z ##[debug]Result: null
+2026-03-05T01:37:35.8077520Z ##[debug]Evaluating: secrets.GITHUB_REGISTRIES_PROXY
+2026-03-05T01:37:35.8078081Z ##[debug]Evaluating Index:
+2026-03-05T01:37:35.8078530Z ##[debug]..Evaluating secrets:
+2026-03-05T01:37:35.8078977Z ##[debug]..=> Object
+2026-03-05T01:37:35.8079391Z ##[debug]..Evaluating String:
+2026-03-05T01:37:35.8079853Z ##[debug]..=> 'GITHUB_REGISTRIES_PROXY'
+2026-03-05T01:37:35.8080338Z ##[debug]=> null
+2026-03-05T01:37:35.8080727Z ##[debug]Result: null
+2026-03-05T01:37:35.8087992Z ##[debug]Evaluating condition for step: 'Run Dependabot'
+2026-03-05T01:37:35.8090262Z ##[debug]Evaluating: success()
+2026-03-05T01:37:35.8090920Z ##[debug]Evaluating success:
+2026-03-05T01:37:35.8091553Z ##[debug]=> true
+2026-03-05T01:37:35.8092151Z ##[debug]Result: true
+2026-03-05T01:37:35.8092977Z ##[debug]Starting: Run Dependabot
+2026-03-05T01:37:35.8104716Z ##[debug]Register post job cleanup for action: github/dependabot-action@main
+2026-03-05T01:37:35.8126194Z ##[debug]Loading inputs
+2026-03-05T01:37:35.8127338Z ##[debug]Loading env
+2026-03-05T01:37:35.8148409Z ##[group]Run github/dependabot-action@main
+2026-03-05T01:37:35.8148968Z env:
+2026-03-05T01:37:35.8149339Z   DEPENDABOT_DISABLE_CLEANUP: 1
+2026-03-05T01:37:35.8149908Z   DEPENDABOT_ENABLE_CONNECTIVITY_CHECK: 0
+2026-03-05T01:37:35.8150621Z   GITHUB_TOKEN: ***
+2026-03-05T01:37:35.8151044Z   GITHUB_DEPENDABOT_JOB_TOKEN: 
+2026-03-05T01:37:35.8151528Z   GITHUB_DEPENDABOT_CRED_TOKEN: 
+2026-03-05T01:37:35.8151999Z   GITHUB_REGISTRIES_PROXY: 
+2026-03-05T01:37:35.8152438Z ##[endgroup]
+2026-03-05T01:37:36.0313783Z 🤖 ~ starting update ~
+2026-03-05T01:37:36.0346485Z ##[warning]Dependabot workflows cannot be re-run. Retrigger this update via Dependabot instead.
+2026-03-05T01:37:36.0354115Z 🤖 ~ finished: nothing to do ~
+2026-03-05T01:37:36.0358331Z ##[debug]Node Action run completed with exit code 0
+2026-03-05T01:37:36.0362386Z ##[debug]Finishing: Run Dependabot
+2026-03-05T01:37:36.0390496Z ##[debug]Evaluating: secrets.GITHUB_TOKEN
+2026-03-05T01:37:36.0391321Z ##[debug]Evaluating Index:
+2026-03-05T01:37:36.0391787Z ##[debug]..Evaluating secrets:
+2026-03-05T01:37:36.0392275Z ##[debug]..=> Object
+2026-03-05T01:37:36.0392709Z ##[debug]..Evaluating String:
+2026-03-05T01:37:36.0393167Z ##[debug]..=> 'GITHUB_TOKEN'
+2026-03-05T01:37:36.0394466Z ##[debug]=> '***'
+2026-03-05T01:37:36.0395014Z ##[debug]Result: '***'
+2026-03-05T01:37:36.0395924Z ##[debug]Evaluating: secrets.GITHUB_DEPENDABOT_JOB_TOKEN
+2026-03-05T01:37:36.0396525Z ##[debug]Evaluating Index:
+2026-03-05T01:37:36.0396982Z ##[debug]..Evaluating secrets:
+2026-03-05T01:37:36.0397439Z ##[debug]..=> Object
+2026-03-05T01:37:36.0397925Z ##[debug]..Evaluating String:
+2026-03-05T01:37:36.0398397Z ##[debug]..=> 'GITHUB_DEPENDABOT_JOB_TOKEN'
+2026-03-05T01:37:36.0398921Z ##[debug]=> null
+2026-03-05T01:37:36.0399307Z ##[debug]Result: null
+2026-03-05T01:37:36.0399972Z ##[debug]Evaluating: secrets.GITHUB_DEPENDABOT_CRED_TOKEN
+2026-03-05T01:37:36.0400595Z ##[debug]Evaluating Index:
+2026-03-05T01:37:36.0401043Z ##[debug]..Evaluating secrets:
+2026-03-05T01:37:36.0401493Z ##[debug]..=> Object
+2026-03-05T01:37:36.0401911Z ##[debug]..Evaluating String:
+2026-03-05T01:37:36.0402385Z ##[debug]..=> 'GITHUB_DEPENDABOT_CRED_TOKEN'
+2026-03-05T01:37:36.0402892Z ##[debug]=> null
+2026-03-05T01:37:36.0403487Z ##[debug]Result: null
+2026-03-05T01:37:36.0404161Z ##[debug]Evaluating: secrets.GITHUB_REGISTRIES_PROXY
+2026-03-05T01:37:36.0404714Z ##[debug]Evaluating Index:
+2026-03-05T01:37:36.0405166Z ##[debug]..Evaluating secrets:
+2026-03-05T01:37:36.0405615Z ##[debug]..=> Object
+2026-03-05T01:37:36.0406019Z ##[debug]..Evaluating String:
+2026-03-05T01:37:36.0406492Z ##[debug]..=> 'GITHUB_REGISTRIES_PROXY'
+2026-03-05T01:37:36.0406976Z ##[debug]=> null
+2026-03-05T01:37:36.0407365Z ##[debug]Result: null
+2026-03-05T01:37:36.0408075Z ##[debug]Evaluating condition for step: 'Post Run Dependabot'
+2026-03-05T01:37:36.0410775Z ##[debug]Evaluating: always()
+2026-03-05T01:37:36.0411434Z ##[debug]Evaluating always:
+2026-03-05T01:37:36.0412441Z ##[debug]=> true
+2026-03-05T01:37:36.0413061Z ##[debug]Result: true
+2026-03-05T01:37:36.0414168Z ##[debug]Starting: Post Run Dependabot
+2026-03-05T01:37:36.0435576Z ##[debug]Loading inputs
+2026-03-05T01:37:36.0436700Z ##[debug]Loading env
+2026-03-05T01:37:36.0444343Z Post job cleanup.
+2026-03-05T01:37:36.2100686Z ##[debug]Node Action run completed with exit code 0
+2026-03-05T01:37:36.2105069Z ##[debug]Finishing: Post Run Dependabot
+2026-03-05T01:37:36.2156515Z ##[debug]Starting: Complete job
+2026-03-05T01:37:36.2159393Z Uploading runner diagnostic logs
+2026-03-05T01:37:36.2172322Z ##[debug]Starting diagnostic file upload.
+2026-03-05T01:37:36.2173089Z ##[debug]Setting up diagnostic log folders.
+2026-03-05T01:37:36.2176657Z ##[debug]Creating diagnostic log files folder.
+2026-03-05T01:37:36.2187373Z ##[debug]Copying 1 worker diagnostic logs.
+2026-03-05T01:37:36.2196822Z ##[debug]Copying 1 runner diagnostic logs.
+2026-03-05T01:37:36.2198804Z ##[debug]Zipping diagnostic files.
+2026-03-05T01:37:36.2266312Z ##[debug]Uploading diagnostic metadata file.
+2026-03-05T01:37:36.2297945Z ##[debug]Diagnostic file upload complete.
+2026-03-05T01:37:36.2298978Z Completed runner diagnostic log upload
+2026-03-05T01:37:36.2299601Z Cleaning up orphan processes
+2026-03-05T01:37:36.2634951Z ##[debug]Finishing: Complete job
+2026-03-05T01:37:36.2672165Z ##[debug]Finishing: Dependabot
